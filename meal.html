@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+
+    <header class="text-center text-warning py-5">
+        <h1>Explore Your Favorite food</h1>
+    </header>
+
+    <main >
+
+        <!-- input field section -->
+        <section class="text-center py-5">
+            <input id="search-field" type="text" placeholder="search your desire food">
+            <button onclick="loadSearch()" class="btn btn-sm px-10 bg-warning">search</button>
+        </section>
+
+        <!-- meal detail -->
+        <section>
+            <h1 class="text-warning py-5">Your Meal</h1>
+            <div id="detailmeal-container" style="width:540rem ;">
+              
+            </div>
+        </section>
+
+        <!-- food section -->
+
+        <section class="container ">
+            <div id="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
+
+
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/meal.js"></script>
+
+</body>
+
+</html>
